@@ -1,0 +1,87 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+body{
+    background-image:url(images/driedup.jpg);
+    background-repeat:no-repeat;
+    font-weight:300;
+    height: 100vh;
+    font-family: 'lato';
+    background-size: cover;
+    opacity: 70%;
+    text-align: center;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  
+}    
+.container {
+    width: 1000px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#score-1,
+#score-0{
+    font-size: 80px;
+}
+
+.row{
+    justify-content: center;   
+}
+#dice {
+    left: 50%;
+    justify-content: center;
+    height: 60px;
+    box-shadow: 0px 10px 60px rgba(0, 0, 0, 0.10);
+    
+}
+
+#player-0,
+#player-1{
+        font-size: 40px;
+        text-align: center;
+        text-transform: uppercase;
+        font-weight: 100;
+}
+.player-0-panel,
+.player-1-panel{
+ float: left;
+ width: 50%;
+ padding: 90px;
+ background-color: rgb(216, 207, 207);
+}
+
+.player-current-score{
+    font-size: 30px;
+}
+button{
+  
+    width: 200px;
+    left: 50%;
+    transform: translateX(-50%);
+    color: #555;
+    background: none;
+    border: none;
+    font-family: Lato;
+    font-size: 20px;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-weight: 300;
+    position:absolute;
+}
+
+.btn-new { top: 45px;}
+.btn-play { top: 300px;}
+.btn-hold { top: 350px;}
+
+.dice{
+position: absolute;
+left: 50%;
+top: 178px;
+transform: translateX(-50%);
+height: 100px;
+}
